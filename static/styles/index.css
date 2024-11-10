@@ -1,0 +1,103 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-family: 'Nunito', sans-serif;
+}
+/* Container Styles */
+.container {
+  width: 97%;
+  
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e0d4f7;
+  border-radius: 8px;
+  margin: auto;
+  margin-top:2vh;
+  padding: auto;
+  box-shadow: 0 4px 8px rgba(74, 35, 90, 0.1);
+}
+/* Label Styles */
+.container label {
+  font-size: 1em;
+  font-weight: 600;
+  color: #4a235a;
+  display: block;
+  margin: 15px 0 5px;
+}
+
+/* File Input Styles */
+.container input[type="file"] {
+  width: 97%;
+  padding: 10px 10px;
+  font-size: 0.95em;
+  color: #4a235a;
+  border: 1px solid #dcd0e8;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.container input[type="file"]:hover {
+  border-color: #ffffff;
+}
+
+/* Textarea Styles */
+.container textarea {
+  width: 97%;
+  height: 60vh;
+  overflow-y: scroll;
+  padding: 10px;
+  font-size: 0.95em;
+  font-family: inherit;
+  color: #4a235a;
+  background-color: #ffffff;
+  border: 1px solid #dcd0e8;
+  border-radius: 5px;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+.container textarea:focus {
+  border-color: #ab83cc;
+  outline: none;
+}
+
+/* Placeholder Styles */
+.container textarea::placeholder {
+  color: #ab83cc;
+}
+
+/* Button Styles */
+.container button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #ab83cc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.container button:hover {
+  background-color: #8e5ba9;
+}
+
+
+.hidden{
+  display: none;
+}
+
+.nav{
+  background-color: #4a235a;
+  color: white;
+  padding:10px 10px;
+  width: 100vw; 
+  font-weight: 600;
+  font-size: 2rem;
+}

@@ -1,0 +1,6 @@
+Flask
+langchain-community
+langchain-qdrant
+qdrant-client
+nltk
+python-dotenv

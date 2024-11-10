@@ -1,0 +1,635 @@
+Introduction
+Te Internet of Tings (IoT) is an emerging paradigm that enables the communication
+between electronic devices and sensors through the internet in order to facilitate our
+lives. IoT use smart devices and internet to provide innovative solutions to various challenges and issues related to various business, governmental and public/private industries
+across the world [1]. IoT is progressively becoming an important aspect of our life that
+can be sensed everywhere around us. In whole, IoT is an innovation that puts together
+extensive variety of smart systems, frameworks and intelligent devices and sensors
+(Fig. 1). Moreover, it takes advantage of quantum and nanotechnology in terms of storage, sensing and processing speed which were not conceivable beforehand [2]. Extensive
+research studies have been done and available in terms of scientifc articles, press reports
+both on internet and in the form of printed materials to illustrate the potential efectiveness and applicability of IoT transformations. It could be utilized as a preparatory work
+before making novel innovative business plans while considering the security, assurance
+and interoperability.
+Abstract
+Internet of Things (IoT) is a new paradigm that has changed the traditional way of
+living into a high tech life style. Smart city, smart homes, pollution control, energy
+saving, smart transportation, smart industries are such transformations due to IoT. A lot
+of crucial research studies and investigations have been done in order to enhance the
+technology through IoT. However, there are still a lot of challenges and issues that need
+to be addressed to achieve the full potential of IoT. These challenges and issues must
+be considered from various aspects of IoT such as applications, challenges, enabling
+technologies, social and environmental impacts etc. The main goal of this review article
+is to provide a detailed discussion from both technological and social perspective. The
+article discusses diferent challenges and key issues of IoT, architecture and important application domains. Also, the article bring into light the existing literature and
+illustrated their contribution in diferent aspects of IoT. Moreover, the importance of big
+data and its analysis with respect to IoT has been discussed. This article would help the
+readers and researcher to understand the IoT and its applicability to the real world.
+Keywords: Internet of Things (IoT), IoT architecture, IoT challenges, IoT applications
+Open Access
+© The Author(s) 2019. This article is distributed under the terms of the Creative Commons Attribution 4.0 International License
+(http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium,
+provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and
+indicate if changes were made.
+SURVEY PAPER
+Kumar et al. J Big Data (2019) 6:111
+https://doi.org/10.1186/s40537-019-0268-2
+*Correspondence:
+sachinagnihotri16@gmail.
+com
+1
+ Department of Computer
+Science, South Ural State
+University, Chelyabinsk,
+Russian Federation
+Full list of author information
+is available at the end of the
+article
+Kumar et al. J Big Data (2019) 6:111 Page 2 of 21
+A great transformation can be observed in our daily routine life along with the increasing involvement of IoT devices and technology. One such development of IoT is the
+concept of Smart Home Systems (SHS) and appliances that consist of internet based
+devices, automation system for homes and reliable energy management system [3].
+Besides, another important achievement of IoT is Smart Health Sensing system (SHSS).
+SHSS incorporates small intelligent equipment and devices to support the health of the
+human being. Tese devices can be used both indoors and outdoors to check and monitor the diferent health issues and ftness level or the amount of calories burned in the
+ftness center etc. Also, it is being used to monitor the critical health conditions in the
+hospitals and trauma centers as well. Hence, it has changed the entire scenario of the
+medical domain by facilitating it with high technology and smart devices [4, 5]. Moreover, IoT developers and researchers are actively involved to uplift the life style of the
+disabled and senior age group people. IoT has shown a drastic performance in this area
+and has provided a new direction for the normal life of such people. As these devices
+and equipment are very cost efective in terms of development cost and easily available
+within a normal price range, hence most of the people are availing them [6]. Tanks to
+IoT, as they can live a normal life. Another important aspect of our life is transportation. IoT has brought up some new advancements to make it more efcient, comfortable
+and reliable. Intelligent sensors, drone devices are now controlling the trafc at diferent
+signalized intersections across major cities. In addition, vehicles are being launched in
+markets with pre-installed sensing devices that are able to sense the upcoming heavy
+trafc congestions on the map and may suggest you another route with low trafc congestion [7]. Terefore IoT has a lot to serve in various aspects of life and technology. We
+may conclude that IoT has a lot of scope both in terms of technology enhancement and
+facilitate the humankind.
+IoT has also shown its importance and potential in the economic and industrial
+growth of a developing region. Also, in trade and stock exchange market, it is being
+considered as a revolutionary step. However, security of data and information is an
+Analysis
+Remote
+Command/
+RFI
+Analytics Data Storage
+Data
+Analysis
+IoT Devices
+Gateway
+Business
+Intelligence
+Fig. 1 General architecture of IoT
+Kumar et al. J Big Data (2019) 6:111 Page 3 of 21
+important concern and highly desirable, which is a major challenging issue to deal
+with [5]. Internet being a largest source of security threats and cyber-attacks has
+opened the various doors for hackers and thus made the data and information insecure. However, IoT is committed to provide the best possible solutions to deal with
+security issues of data and information. Hence, the most important concern of IoT in
+trade and economy is security. Terefore, the development of a secure path for collaboration between social networks and privacy concerns is a hot topic in IoT and IoT
+developers are working hard for this.
+Te remaining part of the article is organized as follows: “Literature survey” section
+will provide state of art on important studies that addressed various challenges and
+issues in IoT. “IoT architecture and technologies” section discussed the IoT functional
+blocks, architecture in detail. In “Major key issues and challenges of IoT” section,
+important key issues and challenges of IoT is discussed. “Major IoT applications” section provides emerging application domains of IoT. In “Importance of big data analytics in IoT” section, the role and importance of big data and its analysis is discussed.
+Finally, the article concluded in “Conclusions” section.
+Literature survey
+IoT has a multidisciplinary vision to provide its beneft to several domains such as
+environmental, industrial, public/private, medical, transportation etc. Diferent
+researchers have explained the IoT diferently with respect to specifc interests and
+aspects. Te potential and power of IoT can be seen in several application domains.
+Figure 2 illustrates few of the application domains of IoTs potentials.
+Various important IoT projects have taken charge over the market in last few years.
+Some of the important IoT projects that have captured most of the market are shown
+in Fig. 3. In Fig. 3, a global distribution of these IoT projects is shown among American, European and Asia/Pacifc region. It can be seen that American continent are
+contributing more in the health care and smart supply chain projects whereas contribution of European continent is more in the smart city projects [8].
+IoT
+Smart Cities &
+Homes Energy
+Consumption
+Healthcare and
+Medicine
+Smart Traffic
+Management
+Security and
+Surveillance Agriculture
+Automation
+Agriculture
+Automation
+Smart Cities &
+Homes
+Fig. 2 Some of the potential application domains of IoT
+Kumar et al. J Big Data (2019) 6:111 Page 4 of 21
+Figure 4, illustrates the global market share of IoT projects worldwide [8]. It is evident
+that industry, smart city, smart energy and smart vehicle based IoT projects have a big
+market share in comparison to others.
+Smart city is one of the trendy application areas of IoT that incorporates smart homes
+as well. Smart home consists of IoT enabled home appliances, air-conditioning/heating system, television, audio/video streaming devices, and security systems which are
+communicating with each other in order to provide best comfort, security and reduced
+energy consumption. All this communication takes place through IoT based central
+control unit using Internet. Te concept of smart city gained popularity in the last decade and attracted a lot of research activities [9]. Te smart home business economy is
+about to cross the 100 billion dollars by 2022 [10]. Smart home does not only provide
+the in-house comfort but also benefts the house owner in cost cutting in several aspects
+i.e. low energy consumption will results in comparatively lower electricity bill. Besides
+smart homes, another category that comes within smart city is smart vehicles. Modern
+cars are equipped with intelligent devices and sensors that control most of the components from the headlights of the car to the engine [11]. Te IoT is committed towards
+0
+20
+40
+60
+80
+100
+120
+Global Distribution of IoT Projects
+America Europe APAC
+Fig. 3 Global distribution of IoT projects among America (USA, South America and Canada), Europe and
+APAC (Asia and Pacifc region) [8]
+0
+5
+10
+15
+20
+25
+Global Share of IoT Projects
+Fig. 4 Global share of IoT projects across the world [8]
+Kumar et al. J Big Data (2019) 6:111 Page 5 of 21
+developing a new smart car systems that incorporates wireless communication between
+car-to-car and car-to-driver to ensure predictive maintenance with comfortable and safe
+driving experience [12].
+Khajenasiri et al. [10] performed a survey on the IoT solutions for smart energy control
+to beneft the smart city applications. Tey stated that at present IoT has been deployed
+in very few application areas to serve the technology and people. Te scope of IoT is
+very wide and in near future IoT is able to capture almost all application areas. Tey
+mentioned that energy saving is one of the important part of the society and IoT can
+assist in developing a smart energy control system that will save both energy and money.
+Tey described an IoT architecture with respect to smart city concept. Te authors also
+discussed that one of the challenging task in achieving this is the immaturity of IoT
+hardware and software. Tey suggested that these issues must be resolved to ensure a
+reliable, efcient and user friendly IoT system.
+Alavi et al. [13] addressed the urbanization issue in the cities. Te movement of people
+from rural to urban atmosphere resulting in growing population of the cities. Terefore,
+there is a need to provide smart solutions for mobility, energy, healthcare and infrastructure. Smart city is one of the important application areas for IoT developers. It explores
+several issues such as trafc management, air quality management, public safety solutions, smart parking, smart lightning and smart waste collection (Fig.  5). Tey mentioned that IoT is working hard to tackle these challenging issues. Te need for improved
+smart city infrastructure with growing urbanization has opened the doors for entrepreneurs in the feld of smart city technologies. Te authors concluded that IoT enabled
+technology is very important for the development of sustainable smart cities.
+Another important issue of IoT that requires attention and a lot of research is security
+and privacy. Weber [14] focused on these issues and suggested that a private organization
+availing IoT must incorporate data authentication, access control, resilience to attacks
+and client privacy into their business activities that would be an additional advantage.
+Traffic
+Management
+Air Quality
+Control
+Public Safety
+Solutions
+Smart
+Parking
+Smart
+Lightning
+Smart Waste
+Collection
+IoT Applications for Smart Cities
+Fig. 5 Potential IoT application areas for smart cities
+Kumar et al. J Big Data (2019) 6:111 Page 6 of 21
+Weber suggested that in order to defne global security and privacy issues, IoT developers must take into account the geographical limitations of the diferent countries. A
+generic framework needs to be designed to ft the global needs in terms of privacy and
+security. It is highly recommended to investigate and recognize the issues and challenges
+in privacy and security before developing the full fedge working IoT framework.
+Later, Heer et  al. [15] came up with a security issue in IP based IoT system. Tey
+mentioned that internet is backbone for the communication among devices that takes
+place in an IoT system. Terefore, security issues in IP based IoT systems are an important concern. In addition, security architecture should be designed considering the life
+cycle and capabilities of any object in the IoT system. It also includes the involvement of
+the trusted third party and the security protocols. Te security architecture with scalability potential to serve the small-scale to large-scale things in IoT is highly desirable.
+Te study pointed out that IoT gave rise to a new way of communication among several things across the network therefore traditional end to end internet protocol are not
+able to provide required support to this communication. Terefore, new protocols must
+be designed considering the translations at the gateways to ensure end-to-end security.
+Moreover, all the layers responsible for communication has their own security issues and
+requirements. Terefore, satisfying the requirements for one particular layers will leave
+the system into a vulnerable state and security should be ensured for all the layers.
+Authentication and access control is another issue in IoT that needs promising solutions to strengthen the security. Liu et al. [16] brought up a solution to handle authentication and access control. Authentication is very important to verify the communicating
+parties to prevent the loss of confdential information. Liu et al. [16] provided an authentication scheme based on Elliptic Curve Cryptosystem and verifed it on diferent security threats i.e. eavesdropping, man-in-the-middle attack, key control and replay attack.
+Tey claimed that there proposed schemes are able to provide better authentication and
+access control in IoT based communication. Later, Kothmayr et al. [17] proposed a twoway authentication scheme based of datagram transport layer security (DTLS) for IoT.
+Te attackers over the internet are always active to steal the secured information. Te
+proposed approach are able to provide message security, integrity, authenticity and confdentiality, memory overhead and end-to-end latency in the IoT based communication
+network.
+Li et  al. [18] proposed a dynamic approach for data centric IoT applications with
+respect to cloud platforms. Te need of an appropriate device, software confguration
+and infrastructure requires efcient solutions to support massive amount of IoT applications that are running on cloud platforms. IoT developers and researchers are actively
+engaged in developing solutions considering both massive platforms and heterogeneous
+nature of IoT objects and devices. Olivier et al. [19] explained the concept of software
+defned networking (SDN) based architecture that performs well even if a well-defned
+architecture is not available. Tey proposed that SDN based security architecture is
+more fexible and efcient for IoT.
+Luk et al. [20] stated that the main task of a secure sensor network (SSN) is to provide data privacy, protection from replay attacks and authentication. Tey discussed
+two popular SSN services namely TinySec [21] and ZigBee [22]. Tey mentioned
+that although both the SSN services are efcient and reliable, however, ZigBee is
+Kumar et al. J Big Data (2019) 6:111 Page 7 of 21
+comparatively provides higher security but consumes high energy whereas TinySec consumes low energy but not as highly secured as ZigBee. Tey proposed another architecture MiniSec to support high security and low energy consumption and demonstrated
+its performance for the Telos platform. Yan et al. [23] stated that trust management is
+an important issue in IoT. Trust management helps people to understand and trust IoT
+services and applications without worrying about uncertainty issues and risks [24]. Tey
+investigated diferent issues in trust management and discussed its importance with
+respect to IoT developers and users.
+Noura et al. [25] stated the importance of interoperability in IoT as it allows integration of devices, services from diferent heterogeneous platforms to provide the efcient
+and reliable service. Several other studies focused on the importance of interoperability
+and discussed several challenges that interoperability issue is facing in IoT [26–28]. Kim
+et al. [29] addressed the issue of climate change and proposed an IoT based ecological
+monitoring system. Tey mentioned that existing approaches are time consuming and
+required a lot of human intervention. Also, a routine visit is required to collect the information from the sensors installed at the site under investigation. Also, some information remained missing which leads to not highly accurate analysis. Terefore, IoT based
+framework is able to solve this problem and can provide high accuracy in analysis and
+prediction. Later, Wang et al. [30] shows their concern for domestic waste water treatment. Tey discussed several defciencies in the process of waste water treatment and
+dynamic monitoring system and suggested efective solutions based on IoT. Tey stated
+that IoT can be very efective in the waste water treatment and process monitoring.
+Agriculture is one of the important domain around the world. Agriculture depends on
+several factors i.e. geographical, ecological etc. Qiu et al. [31] stated that technology that
+is being used for ecosystem control is immature with low intelligence level. Tey mentioned that it could be a good application area for IoT developers and researchers.
+Qiu et al. [31] proposed an intelligent monitoring platform framework for facility agriculture ecosystem based on IoT that consists of four layer mechanism to manage the
+agriculture ecosystem. Each layer is responsible for specifc task and together the framework is able to achieve a better ecosystem with reduced human intervention.
+Another important concern around the world is climate change due to global warming. Fang et  al. [32] introduced an integrated information system (IIS) that integrates
+IoT, geo-informatics, cloud computing, global positioning system (GPS), geographical
+information system (GIS) and e-science in order to provide an efective environmental monitoring and control system. Tey mentioned that the proposed IIS provides
+improved data collection, analysis and decision making for climate control. Air pollution
+is another important concern worldwide. Various tools and techniques are available to
+air quality measures and control. Cheng et al. [33] proposed AirCloud which is a cloud
+based air quality and monitoring system. Tey deployed AirCloud and evaluated its performance using 5 months data for the continuous duration of 2 months.
+Temglit et  al. [34] considered Quality of Service (QoS) as an important challenge
+and a complex task in evaluation and selection of IoT devices, protocols and services.
+QoS is very important criteria to attract and gain trust of users towards IoT services
+and devices. Tey came up with an interesting distributed QoS selection approach. Tis
+approach was based on distributed constraint optimization problem and multi-agent
+Kumar et al. J Big Data (2019) 6:111 Page 8 of 21
+paradigm. Further, the approach was evaluated based on several experiments under realistic distributed environments. Another important aspect of IoT is its applicability to
+the environmental and agriculture standards. Talavera et al. [35] focused in this direction and presented the fundamental eforts of IoT for agro-industrial and environmental aspects in a survey study. Tey mentioned that the eforts of IoT in these areas are
+noticeable. IoT is strengthening the current technology and benefting the farmers and
+society. Jara et  al. [36] discussed the importance of IoT based monitoring of patients
+health. Tey suggested that IoT devices and sensors with the help of internet can assist
+health monitoring of patients. Tey also proposed a framework and protocol to achieve
+their objective. Table 1 provides a summary of the important studies and the direction of
+research with a comparison of studies on certain evaluation parameters.
+Table 1 Comparative illustration of specifc research studies on evaluation factors
+RT response time, RL reliability, AV availability, CT cost, EC energy consumption
+Research Major directions of study Comparison based
+on evaluation factors
+RT RL AV CT EC
+Zhou et al. [3] Security and privacy – x – – x
+Sfar et al. [4] Architecture, security and privacy x – x x –
+Gaona-Garcia et al. [6] Architecture, security and privacy – – x x
+Behrendt [7] Smart city, transport and healthcare – x – x x
+Zanella et al. [9] Smart city, transport and healthcare x – x – –
+Khajenasiri et al. [10] Environment, power and energy x – x x x
+Alavi et al. [13] Smart city, transport and healthcare – x – x
+R.H. Weber [14] Security and privacy – x x – x
+Heer et al. [15] Security and privacy x – – x
+Liu et al. [16] Authentication and identifcation x x – x –
+Kothmayr et al. [17] Security and privacy – x – – –
+Li et al. [18] Security and privacy, management and control – x x x –
+Luk et al. [20] Security and privacy, architecture x x – – –
+Sebastian and Ray [38] Smart city, transport and healthcare, architecture x – x x
+Yan et al. [23] Authentication and identifcation, QoS x – – – x
+Dierks and Allen [44] Standardization x – x – –
+Pei et al. [45] Standardization, authentication and identifcation – x – – x
+Roman et al. [46] Security and privacy x x – –
+Noura et al. [25] Interoperability – x x
+Palattella et al. [27] Interoperability, reliability, scalability x – x – x
+Yan et al. [23] QoS, management and control, authentication and
+identifcation
+– x – x –
+Pereira and Aguiar [28] Interoperability, QoS, scalability x – x – x
+Clausen et al. [66] Data processing, reliability – x x x –
+Bao et al. [24] Scalability, security and privacy x x x – –
+Li et al. [67] Security and privacy, reliability – x – –
+Zhang [68] Security and privacy, data processing – x x –
+Qiu et al. [31] Agriculture, environmental x x – – x
+Fang et al. [32] Environmental x x x – –
+Montori et al. [69] Interoperability, reliability x x x – x
+Distefano et al. [70] Interoperability, scalability x – – – x
+Temglit et al. [34] QoS, reliability – x x – –
+Talavera et al. [35] Agriculture, industrial, environmental x – – x x
+Kumar et al. J Big Data (2019) 6:111 Page 9 of 21
+IoT architecture and technologies
+Te IoT architecture consists of fve important layers that defnes all the functionalities of IoT systems. Tese layers are perception layer, network layer, middleware
+layer, application layer, business layer. At the bottom of IoT architecture, perception
+layer exists that consists of physical devices i.e. sensors, RFID chips, barcodes etc.
+and other physical objects connected in IoT network. Tese devices collects information in order to deliver it to the network layer. Network layer works as a transmission medium to deliver the information from perception layer to the information
+processing system. Tis transmission of information may use any wired/wireless
+medium along with 3G/4G, Wi-Fi, Bluetooth etc. Next level layer is known as middleware layer. Te main task of this layer is to process the information received from
+the network layer and make decisions based on the results achieved from ubiquitous
+computing. Next, this processed information is used by application layer for global
+device management. On the top of the architecture, there is a business layer which
+control the overall IoT system, its applications and services. Te business layer visualizes the information and statistics received from the application layer and further
+used this knowledge to plan future targets and strategies. Furthermore, the IoT architectures can be modifed according to the need and application domain [19, 20, 37].
+Besides layered framework, IoT system consists of several functional blocks that supports various IoT activities such as sensing mechanism, authentication and identifcation, control and management [38]. Figure 6 illustrates such functional blocks of IoT
+architecture.
+Tere are several important functional blocks responsible for I/O operations, connectivity issues, processing, audio/video monitoring and storage management. All these
+functional block together incorporates an efcient IoT system which are important for
+optimum performance. Although, there are several reference architectures proposed
+with the technical specifcations, but these are still far from the standard architecture
+that is suitable for global IoT [39]. Terefore, a suitable architecture is still needsvk to be
+designed that could satisfy the global IoT needs. Te generic working structure of IoT
+system is shown in Fig. 7. Figure 7 shows a dependency of IoT on particular application
+parameters. IoT gateways have an important role in IoT communication as it allows connectivity between IoT servers and IoT devices related to several applications [40].
+I2C SPI UART CAN
+USB Host
+Ethernet
+CPU
+GPU
+HDMI
+Audio/Video
+RAM/ROM
+SD/MMC/SUI
+D
+Connectivity
+unit Processing
+unit
+Sound/visual
+Unit
+Memory/storage
+unit
+Input/Output Interfaces
+Fig. 6 A generic function module of IoT system
+Kumar et al. J Big Data (2019) 6:111 Page 10 of 21
+Scalability, modularity, interoperability and openness are the key design issues for an
+efcient IoT architecture in a heterogenous environment. Te IoT architecture must be
+designed with an objective to fulfl the requirements of cross domain interactions, multisystem integration with the potential of simple and scalable management functionalities, big data analytics and storage, and user friendly applications. Also, the architecture
+should be able to scaleup the functionality and add some intelligence and automation
+among the IoT devices in the system.
+Moreover, increasing amount of massive data being generated through the communication between IoT sensors and devices is a new challenge. Terefore, an efcient architecture is required to deal with massive amount of streaming data in IoT system. Two
+popular IoT system architectures are cloud and fog/edge computing that supports with
+the handling, monitoring and analysis of huge amount of data in IoT systems. Terefore,
+a modern IoT architecture can be defned as a 4 stage architecture as shown in Fig. 8.
+Smart
+Home
+Smart
+Health
+Smart
+Transport
+IoT Applications
+IoT Servers
+IoT Gateways
+IoT monitoring
+and control
+devices
+Fig. 7 Working structure of IoT
+Sensors/
+Actuators
+Internet
+Gateways,
+Data
+Acquisition
+Systems
+Edge
+Computing
+Data
+Aggregation,
+measurement
+and control
+Analytics, Preprocessing,
+Machine
+learning and
+visualization
+Data Centre/
+Cloud storage
+Analytics,
+Integration,
+Management,
+Storage/
+Archive
+Things
+Stage 1 Stage 2 Stage 3 Stage 4
+Data Flow
+Control Flow
+Security
+End-to-end protection
+Ecosystem Open, Extensive, Partner driven
+Services
+Advise, Transform, Integrate, Operate, Manage 1 2 3
+Fig. 8 Four stage IoT architecture to deal with massive data
+Kumar et al. J Big Data (2019) 6:111 Page 11 of 21
+In stage 1 of the architecture, sensors and actuators plays an important role. Real
+world is comprised of environment, humans, animals, electronic gadgets, smart vehicles,
+and buildings etc. Sensors detect the signals and data fow from these real world entities
+and transforms into data which could further be used for analysis. Moreover, actuators
+is able to intervene the reality i.e. to control the temperature of the room, to slow down
+the vehicle speed, to turn of the music and light etc. Terefore, stage 1 assist in collecting data from real world which could be useful for further analysis. Stage 2 is responsible
+to collaborate with sensors and actuators along with gateways and data acquisition systems. In this stage, massive amount of data generated in stage 1 is aggregated and optimized in a structured way suitable for processing. Once the massive amount of data is
+aggregated and structured then it is ready to be passed to stage 3 which is edge computing. Edge computing can be defned as an open architecture in distributed fashion which
+allows use of IoT technologies and massive computing power from diferent locations
+worldwide. It is very powerful approach for streaming data processing and thus suitable
+for IoT systems. In stage 3, edge computing technologies deals with massive amount of
+data and provides various functionalities such as visualization, integration of data from
+other sources, analysis using machine learning methods etc. Te last stage comprises
+of several important activities such as in depth processing and analysis, sending feedback to improve the precision and accuracy of the entire system. Everything at this stage
+will be performed on cloud server or data centre. Big data framework such as Hadoop
+and Spark may be utilized to handle this large streaming data and machine learning
+approaches can be used to develop better prediction models which could help in a more
+accurate and reliable IoT system to meet the demand of present time.
+Major key issues and challenges of IoT
+Te involvement of IoT based systems in all aspects of human lives and various technologies involved in data transfer between embedded devices made it complex and gave
+rise to several issues and challenges. Tese issues are also a challenge for the IoT developers in the advanced smart tech society. As technology is growing, challenges and need
+for advanced IoT system is also growing. Terefore, IoT developers need to think of new
+issues arising and should provide solutions for them.
+Security and privacy issues
+One of the most important and challenging issues in the IoT is the security and privacy
+due to several threats, cyber attacks, risks and vulnerabilities [41]. Te issues that give
+rise to device level privacy are insufcient authorization and authentication, insecure
+software, frmware, web interface and poor transport layer encryption [42]. Security and
+privacy issues are very important parameters to develop confdence in IoT Systems with
+respect to various aspects [43]. Security mechanisms must be embedded at every layer
+of IoT architecture to prevent security threats and attacks [23]. Several protocols are
+developed and efciently deployed on every layer of communication channel to ensure
+the security and privacy in IoT based systems [44, 45]. Secure Socket Layer (SSL) and
+Datagram Transport Layer Security (DTLS) are one of the cryptographic protocols that
+are implemented between transport and application layer to provide security solutions
+in various IoT systems [44]. However, some IoT applications require diferent methods
+Kumar et al. J Big Data (2019) 6:111 Page 12 of 21
+to ensure the security in communication between IoT devices. Besides this, if communication takes place using wireless technologies within the IoT system, it becomes more
+vulnerable to security risks. Terefore, certain methods should be deployed to detect
+malicious actions and for self healing or recovery. Privacy on the other hand is another
+important concern which allows users to feel secure and comfortable while using IoT
+solutions. Terefore, it is required to maintain the authorization and authentication over
+a secure network to establish the communication between trusted parties [46]. Another
+issue is the diferent privacy policies for diferent objects communicating within the
+IoT system. Terefore, each object should be able to verify the privacy policies of other
+objects in IoT system before transmitting the data.
+Interoperability/standard issues
+Interoperability is the feasibility to exchange the information among diferent IoT
+devices and systems. Tis exchange of information does not rely on the deployed software and hardware. Te interoperability issue arises due to the heterogeneous nature of
+diferent technology and solutions used for IoT development. Te four interoperability
+levels are technical, semantic, syntactic and organizational [47]. Various functionalities
+are being provided by IoT systems to improve the interoperability that ensures communication between diferent objects in a heterogeneous environment. Additionally,
+it is possible to merge diferent IoT platforms based on their functionalities to provide
+various solutions for IoT users [48]. Considering interoperability an important issue,
+researchers approved several solutions that are also know as interoperability handling
+approaches [49]. Tese solutions could be adapaters/gateways based, virtual networks/
+overlay based, service oriented architecture based etc. Although interoperability handling approaches ease some pressure on IoT systems but there are still certain challenges
+remain with interoperability that could be a scope for future studies [25].
+Ethics, law and regulatory rights
+Another issue for IoT developers is the ethics, law and regulatory rights. Tere are certain rules and regulations to maintain the standard, moral values and to prevent the people from violating them. Ethics and law are very similar term with the only diference is
+that ethics are standards that people believes and laws are certain restrictions decided by
+the government. However, both ethics and laws are designed to maintain the standard,
+quality and prevent people from illegal use. With the development of IoT, several real life
+problems are solved but it has also given rise to critical ethical and legal challenges [50].
+Data security, privacy protection, trust and safety, data usability are some of those challenges. It has also been observed that majority of IoT users are supporting government
+norms and regulations with respect to data protection, privacy and safety due to the lack
+of trust in IoT devices. Terefore, this issue must be taken into consideration to maintain
+and improve the trust among people for the use of IoT devices and systems.
+Scalability, availability and reliability
+A system is scalable if it is possible to add new services, equipments and devices without degrading its performance. Te main issue with IoT is to support a large number of
+devices with diferent memory, processing, storage power and bandwidth [28]. Another
+Kumar et al. J Big Data (2019) 6:111 Page 13 of 21
+important issue that must be taken into consideration is the availability. Scalability
+and availability both should be deployed together in the layered framework of IoT. A
+great example of scalability is cloud based IoT systems which provide sufcient support
+to scale the IoT network by adding up new devices, storage and processing power as
+required.
+However, this global distributed IoT network gives rise to a new research paradigm
+to develop a smooth IoT framework that satisfy global needs [51]. Another key challenge is the availability of resources to the authentic objects regardless of their location
+and time of the requirement. In a distributed fashion, several small IoT networks are
+timely attached to the global IoT platforms to utilize their resources and services. Terefore, availability is an important concern [52]. Due to the use of diferent data transmission channels i.e. satellite communication, some services and availability of resources
+may be interrupted. Terefore, an independent and reliable data transmission channel is
+required for uninterrupted availability of resources and services.
+Quality of Service (QoS)
+Quality of Service (QoS) is another important factor for IoT. QoS can be defned as a
+measure to evaluate the quality, efciency and performance of IoT devices, systems
+and architecture [34]. Te important and required QoS metrics for IoT applications
+are reliability, cost, energy consumption, security, availability and service time [53]. A
+smarter IoT ecosystem must fulfll the requirements of QoS standards. Also, to ensure
+the reliability of any IoT service and device, its QoS metrics must be defned frst. Further, users may also be able to specify their needs and requirements accordingly. Several
+approaches can be deployed for QoS assessment, however as mentioned by White et al.
+[54] there is a trade-of between quality factors and approaches. Terefore, good quality models must be deployed to overcome this trade-of. Tere are certain good quality
+models available in literature such as ISO/IEC25010 [55] and OASIS-WSQM [56] which
+can be used to evaluate the approaches used for QoS assessment. Tese models provides
+a wide range of quality factors that is quite sufcient for QoS assessment for IoT services. Table 2 summarizes the diferent studies with respect to IoT key challenges and
+issues discussed above.
+Major IoT applications
+Emerging economy, environmental and health‑care
+IoT is completely devoted to provide emerging public and fnancial benefts and development to the society and people. Tis includes a wide range of public facilities i.e.
+economic development, water quality maintenance, well-being, industrialization etc.
+Overall, IoT is working hard to accomplish the social, health and economic goals of
+United Nations advancement step. Environmental sustainability is another important
+concern. IoT developers must be concerned about environmental impact of the IoT
+systems and devices to overcome the negative impact [48]. Energy consumption by IoT
+devices is one of the challenges related to environmental impact. Energy consumption
+is increasing at a high rate due to internet enabled services and edge cutting devices.
+Tis area needs research for the development of high quality materials in order to create
+new IoT devices with lower energy consumption rate. Also, green technologies can be
+Kumar et al. J Big Data (2019) 6:111 Page 14 of 21
+adopted to create efcient energy efcient devices for future use. It is not only environmental friendly but also advantageous for human health. Researchers and engineers are
+engaged in developing highly efcient IoT devices to monitor several health issues such
+as diabetes, obesity or depression [57]. Several issues related to environment, energy and
+healthcare are considered by several studies.
+Smart city, transport and vehicles
+IoT is transforming the traditional civil structure of the society into high tech structure
+with the concept of smart city, smart home and smart vehicles and transport. Rapid
+improvements are being done with the help of supporting technologies such as machine
+learning, natural language processing to understand the need and use of technology at
+home [58]. Various technologies such as cloud server technology, wireless sensor networks that must be used with IoT servers to provide an efcient smart city. Another
+important issue is to think about environmental aspect of smart city. Terefore, energy
+Table 2 A summary of studies with respect to IoT key challenges and applications
+IoT key issues References Specifc concepts covered
+Interoperability [25–28, 47–49, 71–75] General issues, IoT platforms and
+architectures, technical and semantic interoperability
+Security and privacy [1–6, 14, 15, 17–20, 24, 46, 76] Security and privacy issues, defnition
+and design of secure IoT networks
+and architecture
+Management and control [12, 18, 23, 26, 43, 71, 73, 77–80] IoT layer management and control,
+device, network, application, data
+and trust management and control
+Architecture [4, 6, 19, 20, 38, 74, 75, 81–85] Hardware, cloud centric, SOA, process
+architectures and conceptual models, application frameworks
+Quality of Service [23, 26, 28, 34, 41, 53, 86–94] Data trafc load, protocols for all layers in IoT architecture, QoS and QoE
+routine check
+Authentication and identifcation [12, 16, 17, 23, 45, 50, 95–97] Addressing issues and solutions, IoT
+integrations with internet protocols
+(IPv6), authentication and identifcation issues
+Environment, power and energy [10, 29–33, 37, 67, 68, 85, 98–102] Involvement of green technology in
+IoT, design of low power consumption devices and chips, pollution
+control and management
+Smart city, healthcare and transportation
+[7, 9, 10, 13, 38, 58, 69, 70, 103–113] Smart trafc management and control, smart devices for healthcare
+management, smart vehicles,
+energy management
+Data processing and storage [26, 41, 43, 66, 87, 114] Data analysis, visualization, integration issues and solutions
+Reliability [18, 27, 43, 52, 66, 72, 101, 115–121] Connectivity, mobility and routing
+issues, reliability of infrastructure
+and applications
+Scalability [24, 27, 28, 41, 43, 51, 115] Scaling issues on large platforms and
+geographical locations, potential
+discovery services
+Standardization [12, 43–45, 99, 101, 114, 122] IoT defnition, protocols design,
+architecture standardization, vision
+and framework design
+Kumar et al. J Big Data (2019) 6:111 Page 15 of 21
+efcient technologies and Green technologies should also be considered for the design
+and planning of smart city infrastructure. Further, smart devices which are being incorporated into newly launched vehicles are able to detect trafc congestions on the road
+and thus can suggest an optimum alternate route to the driver. Tis can help to lower
+down the congestion in the city. Furthermore, smart devices with optimum cost should
+be designed to be incorporated in all range vehicles to monitor the activity of engine.
+IoT is also very efective in maintaining the vehicle’s health. Self driving cars have the
+potential to communicate with other self driving vehicles by the means of intelligent
+sensors. Tis would make the trafc fow smoother than human-driven cars who used
+to drive in a stop and go manner. Tis procedure will take time to be implemented all
+over the world. Till the time, IoT devices can help by sensing trafc congestion ahead
+and can take appropriate actions. Terefore, a transport manufacturing company should
+incorporate IoT devices into their manufactured vehicles to provide its advantage to the
+society.
+Agriculture and industry automation
+Te world’s growing population is estimated to reach approximate 10  billion by 2050.
+Agriculture plays an important role in our lives. In order to feed such a massive population, we need to advance the current agriculture approaches. Terefore, there is a need
+to combine agriculture with technology so that the production can be improved in an
+efcient way. Greenhouse technology is one of the possible approaches in this direction. It provides a way to control the environmental parameters in order to improve the
+production. However, manual control of this technology is less efective, need manual
+eforts and cost, and results in energy loss and less production. With the advancement
+of IoT, smart devices and sensors makes it easier to control the climate inside the chamber and monitor the process which results in energy saving and improved production
+(Fig. 9). Automatization of industries is another advantage of IoT. IoT has been providing
+Connection
+Gateway
+Remote
+control device
+Display Panel
+Sensors &
+Actuators
+Control and
+switch gear
+Turn On/Off
+Green House Panel
+Remote
+Access
+Fig. 9 A working structure of IoT system in agriculture production
+Kumar et al. J Big Data (2019) 6:111 Page 16 of 21
+game changing solutions for factory digitalization, inventory management, quality control, logistics and supply chain optimization and management.
+Importance of big data analytics in IoT
+An IoT system comprises of a huge number of devices and sensors that communicates
+with each other. With the extensive growth and expansion of IoT network, the number of these sensors and devices are increasing rapidly. Tese devices communicate
+with each other and transfer a massive amount of data over internet. Tis data is very
+huge and streaming every second and thus qualifed to be called as big data. Continuous expansion of IoT based networks gives rise to complex issue such as management
+and collection of data, storage and processing and analytics. IoT big data framework
+for smart buildings is very useful to deal with several issues of smart buildings such as
+managing oxygen level, to measure the smoke/hazardous gases and luminosity [59].
+Such framework is capable to collect the data from the sensors installed in the buildings and performs data analytics for decision making. Moreover, industrial production can be improved using an IoT based cyber physical system that is equipped with
+an information analysis and knowledge acquisition techniques [60]. Trafc congestion
+is an important issue with smart cities. Te real time trafc information can be collected through IoT devices and sensors installed in trafc signals and this information
+can be analyzed in an IoT based trafc management system [61]. In healthcare analysis, the IoT sensors used with patients generate a lot of information about the health
+condition of patients every second. Tis large amount of information needs to be integrated at one database and must be processed in real time to take quick decision with
+high accuracy and big data technology is the best solution for this job [62]. IoT along
+with big data analytics can also help to transform the traditional approaches used in
+manufacturing industries into the modern one [63]. Te sensing devices generates
+information which can be analyzed using big data approaches and may help in various
+decision making tasks. Furthermore, use of cloud computing and analytics can beneft
+the energy development and conservation with reduced cost and customer satisfaction [64]. IoT devices generate a huge amount of streaming data which needs to be
+stored efectively and needs further analysis for decision making in real time. Deep
+learning is very efective to deal with such a large information and can provide results
+with high accuracy [65]. Terefore, IoT, Big data analytics and Deep learning together
+is very important to develop a high tech society.
+Conclusions
+Recent advancements in IoT have drawn attention of researchers and developers
+worldwide. IoT developers and researchers are working together to extend the technology on large scale and to beneft the society to the highest possible level. However,
+improvements are possible only if we consider the various issues and shortcomings in
+the present technical approaches. In this survey article, we presented several issues
+and challenges that IoT developer must take into account to develop an improved
+model. Also, important application areas of IoT is also discussed where IoT developers and researchers are engaged. As IoT is not only providing services but also
+Kumar et al. J Big Data (2019) 6:111 Page 17 of 21
+generates a huge amount of data. Hence, the importance of big data analytics is also
+discussed which can provide accurate decisions that could be utilized to develop an
+improved IoT system.

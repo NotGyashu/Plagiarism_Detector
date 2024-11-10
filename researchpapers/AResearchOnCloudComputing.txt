@@ -1,0 +1,622 @@
+I. INTRODUCTION
+The development of cloud computing has significantly
+changed how the IT sector functions today. Cloud
+computing makes it possible to investigate better IT
+services with lower expenses and less investment. The
+popularity of software as a service has increased
+because of cloud computing's impact on how IT
+hardware is developed and procured. It is an internetbased technology that gives users access to serverstored data as a service whenever they want.
+Customers only pay for the service they use because it
+is a pay-as-you-go service. Cloud computing is as a
+computing model in which massively scalable ITenabled capabilities are offered as a service to
+numerous customers. It is the use of internet-based
+computer technology for a variety of services (as
+storage capacity, processing power, business
+applications, or components). [1]. It is a set of
+network-enabled services that offer scalable,
+guaranteed, typically customized, relatively affordable
+services in an easy-to-use manner. [2]. Cloud
+computing is defined as a computing approach in
+which enormously scalable IT-related capabilities are
+delivered as a service through the internet to various
+external consumers.[3]. This is an information
+technology service paradigm in which hardware and
+software are given to consumers on demand across a
+network without the use of a device or location. [4].
+The National Institute of Standards and Technology
+defines cloud computing as a model for allowing
+ubiquitous, convenient, a shared pool of customized
+computing resources, and services that can be swiftly
+supplied and deployed with minimum administrative
+work or service contact. [5].Cloud computing are of
+four types namely private cloud, public cloud,
+community cloud, and hybrid cloud.. There are three
+popular service models in cloud computing.They are
+as follows:.. Platform as a service, infrastructure as a
+service, and software as a service .These are all
+examples of cloud computing..There are some
+challenges to be considered in choosing a solution,
+they also present tremendous chances with significant
+rewards. This research will present an overview of
+cloud computing architecture, features, and service
+models, as well as discuss their advantages and
+challenges.
+II. HISTORY, LITERATURE REVIEW AND
+METHODOLOGY ON CLOUD COMPUTING
+A. History of cloud computing
+Cloud computing was developed by John McCarthy in
+1960.. "The use of computers,as a subject of research
+may be arranged as a public utility
+eventually."According to Parkhill in The computer
+utility challenges [6]. The name "Cloud" computing
+was introduced in telecommunication industry as a
+virtual private network. .There was wastage of
+Bandwidth using point-point data lines.Network
+utilization was balanced using virtual private network..
+Servers and network infrastructure are now included.
+Cloud computing has been widely used by industry
+participants. Amazon introduced Amazon web services
+and this has been of great help to their business..
+Furthermore, Google and IBM have both launched
+cloud computing research. Eucalyptus was the first
+open-source platform for private cloud deployment.
+B. Literature review on cloud computing
+Cloud computing, also known as the internet, was first
+proposed by American Psychologist and Computer
+scientist Lickliter J.C in 1960 with the aim of
+connecting information, data, and people together
+globally. As the years go on, the evolution of cloud
+computing started around 2006 when Amazon
+introduced “Amazon web services (AWS)” as an
+elastic cloud computing. In 2008, Google introduced
+the “Beta” version of search engine. In 2012, Oracle
+rolled out Oracle cloud computing. Since the
+Introduction of cloud computing by many
+organizations, literature on the application,
+significance and management of cloud computing have
+been published over the years. For instance, [7]
+focused on the adoption of internet computing in the
+information technology industry in some developing
+countries. The study focused on how the major
+information management industry in Pakistan used a
+constructive questionnaire to gather information about
+the employees via email to validate the prototype). [8]
+recommended that, to encourage better performance to
+increase the effectiveness and enhancement of data
+storage, the network providers must perform some new
+tasks to increase the storage capacity of online data.
+[9] evaluated how much larger memory space was
+available in 2018 by using cloud housed 5347EB to
+save data. This spacious memory allowed
+organizations to store, examine, and acquire valuable
+data on customers' information, interests, and
+reactions. [10] proposed an internet computing device
+that allows small companies to save and distribute
+data. In recent years, there has been an upsurge in how
+hackers have breached cloud computing security by
+targeting computers to steal valuable data and damage
+data stored using ransomware. [11] Emphasizing the
+high-security level of cloud computing firms. Hackers
+have acquired substantial smoothness in their exertion;
+this has compelled organizations to spend quality time
+and effort to develop an approach to keep data safe and
+detect malware. These continuous attacks alert security
+experts to enlarge their security and response time. [8]
+To carry out this, firms must hire security experts who
+are ready to keep data safe and sensitive information
+away from hackers.
+Likewise, the research conducted by [12] estimated the
+use of the 5G network launched by the internet service
+provider to increase the quality of services on the
+internet. The launching of the 5G network in 2019
+with a better speed for customers to access and load
+customers information faster than the previous
+networks, also enabling people and organizations to
+send and receive information in real-time.
+Furthermore, due to the widespread availability and
+improvement of smartphones, mobile cloud computing
+must be managed in terms of supporting apps and
+processing capacity. According to [13], mobile cloud
+computing is the combination of mobile and cloud
+computing to provide mobile devices with processing
+power, memory, and storage (2013). On the other
+hand, [14] referred to mobile cloud computing in
+another study as mobile cloud computing. [13] focused
+on its applications, security, and uniform standard that
+can improve the hardware and battery life of mobile
+devices. [15] highlighted the importance of mobile
+cloud computing on social network services like video
+generation, gaming, and image management. This
+study pointed at two mobile cloud computing models-
+(2009), and the importance of intelligent access
+strategies was accentuated by [16] in their journal on
+cloud computing in bank industry, it was found that,
+financial institutions are embracing new technologies
+to gain a competitive advantage in the banking
+industry and about 41% of the total 391 sampled
+commercial banks and other financial institutions have
+incorporated cloud computing and others have clearly
+stated and developed plans to do so. The study pointed
+out how cloud computing can interact with the newly
+spring-up technologies to ensure mutual advantage,
+increase cost benefits, control operational risks
+involved in the integration of cloud computing with
+bank sector activities, and maximize profit efficiency
+which was done by the launching of "internet plus"
+introduced by the government of China to conduct a
+research on the largest banking system, the Chinese
+banking sector in November 2012, in which cloud
+computing played a crucial role as a part of national
+strategies. Another related research conducted on the
+dynamic workflow scheduling algorithm in cloud
+computing was researched by [18] The study focused
+on the use of cloud computing resources to perform
+workflow tasks, the study designed a problem
+scheduling dynamic workflow as a dynamic multiobjective optimization problem (DMOP), the source of
+dynamism is both resource failure and the possibility
+of modifying the number of objectives during the
+period. The study proposed a predictive-based
+dynamic multi-objective evolutionary algorithm
+known as the NN-DNSGA-ii algorithm that
+outperformed the other choices by merging an
+artificial neural network with the DNSGA-ii.
+In machine learning cloud computing, the
+development of a machine learning approach is
+generally employed. Computer vision, pattern
+recognition, and bioinformatics are all used in various
+businesses [19] The development of machine learning
+techniques has benefited large-scale computer systems
+[25]. [29] outlines Google's efforts to correct
+electricity use, maximize profit efficiency, and
+increase efficiency. Despite the previous works on
+machine learning algorithms in cloud computing there
+still existed uncertainty in the integration of machine
+learning into cloud computing management, as a result
+[26] presented a model to reinforce data usage from a
+thorough analysis of the two most major data controls
+resource management research activities to consolidate
+previous works based on objective model.
+Using cloud computing to develop knowledge
+ambidexterity [20] Using a longitudinal case study,
+they examined how cloud computing has contributed
+to the development of knowledge ambidexterity (KAMB) by adopting a cross-theory technique to assess
+the link that exists between information management
+principles and ambidexterity. Prior studies revealed
+that with the use of digital technology, knowledge
+ambidexterity in efficiency might be obtained [27],
+The study examined a framework connection that
+exists between cloud computing and knowledge
+ambidexterity, and KM actions from a factual
+perspective to investigate how SMEs allow knowledge
+ambidexterity innovation capabilities and stated the
+major.
+In the research on Securing authentication scheme in
+cloud computing with a glimpse of an artificial neural
+network, [30], focused on the survey of the cloud
+security issues and authentication scheme, and offer a
+glimpse of an artificial neural network applied to the
+cloud security environment to provide users access
+management with proper cloud security to deny access
+from unauthorized person to access confidential data.
+To achieve cloud security. The study set out security
+goals to ensure data security that includes
+authentication, confidentiality, integrity, and
+accountability. [21] discussed the development of
+block cipher using a neural network to achieve the
+elementary. [21] estimated a Hopfield neutral network
+and password authentication, this was achieved by a
+pattern recall approach in which the data array of
+encrypted passwords is hoarded on the server, and the
+unplanned pattern recall approach used sparse coding
+algorithms. Therefore, based on the artificial neural
+network new cryptography is essential.
+In a study regarding job scheduling in cloud
+computing using a hybrid moth search algorithm, [28]
+developed a similar algorithm with the aim of solving
+the problem associated with cloud task scheduling to
+minimize the required time to program a list of jobs on
+different virtual machines. [23] performed a
+differential evaluation using two techniques known as
+photo taxis and levy flight possessed consideration and
+squeezing ability to improve the already existing moth
+search algorithm (MSA), (DE), since the performance
+of the approach relies on the improvement on the
+improved MSA to carry-out task scheduling in cloud
+computing. Cloud computing in the management of
+education institutions analyzed the role of cloud
+computing in the management of educational
+institutions and how the adoption can help to reduce
+information technology costs while also achieving
+better adaptability and portability. put forward a welldetailed introduction to the practice of cloud
+computing in higher institutions. [24] evaluate the
+initial position of the institution management and how
+it will gear the incorporation into cloud computing that
+is more reliable and efficient. They analyzed the
+structural technologies and interconnected
+components; they also initiated new services that will
+take in place of many types of computational resources
+presently used. In that view, they also considered that
+grid computing will be engaged in a pivot role in
+illustrating how cloud services will be offered. They
+also developed a model that will meet the needs of the
+students, procurement, finance, and accounting
+department, etc. These services are controlled by the
+cloud network provider to users every time they
+demand.
+C. Methodology
+According to [34], the research technique approaches
+and methods form the research methodology used in
+collecting information regarding different parts of a
+problem. The method adopted is descriptive method.
+Materials for the writing was sourced through Google
+scholar, Scopus. We came across different views about
+cloud computing by different authors. Different
+authors had their own definition of cloud computing.
+The key thing we discovered about cloud computing is
+that you pay as you use the service.
+III. CLOUD COMPUTING ARCHITECTURE
+The services delivered by cloud computing are
+classified into three types. The front and back ends
+[31]. The front end and back end are connected
+through a network, which is usually the network. The
+front end of a system is seen by the client (user), but
+the back end is the system cloud. On the back end are
+the client's computers, servers, and data storage. A
+centralized server oversees system management, traffic
+monitoring, and client requests. It employs specialized
+software known as protocols and follows
+predetermined standards. The following are the levels
+and services of cloud computing architecture. The
+client, the application, the platform, the infrastructure,
+and the server [31]. A cloud customer is a collection of
+computer hardware and software that leverages cloud
+computing to offer applications designed specifically
+to deliver cloud services [31]. The three forms of cloud
+computing are listed below.
+Cloud architectures are used by a variety of
+applications, including web-based back-office bulk
+processing systems. These are a few examples.
+● Processing pipelines for document processing
+to OCR:
+This converts millions of pages and pictures
+into searchable raw text and converts
+thousands of documents from Microsoft Word
+to PDF.
+● Pipelines for image processing that may
+encrypt MPEG or AVI movies. developing an
+index for web crawlers Millions of records are
+searched through data mining.
+● System for batch processing: this type of
+system is a Back-office application that can be
+seen in the banking, insurance, and retail
+industries. log analysis is used to generate
+daily and weekly reports.
+● Night builds perform concurrent automated
+builds of the source code repository each
+night. Deployment testing and automated unit
+testing carry out functional, quality, and load
+testing on many configurations.
+● Websites This includes websites that scale
+automatically during the day but are redundant
+at night. Instant websites are websites
+designed specifically for conferences or
+events. Seasonal websites operate according to
+the seasons, such as during the holidays or tax
+season. Model for cloud computing services
+In addition to the five qualities, the following three
+service models are used to categorize cloud services.
+A. Infrastructure-as-a-service (LaaS)
+Cloud users directly make use of the necessary
+computer resources and information technology
+infrastructure, such as processing, storage, networks,
+and other, that are made available by the cloud. In the
+(IaaS) cloud, virtualization is frequently used to
+combine and separate physical resources as needed to
+meet the variable resource demands of cloud users.
+The core virtualization strategy involves creating
+distinct virtual machines (VM) that are isolated from
+both the underlying hardware and other VMs. Since
+numerous instances (from separate cloud users) can
+operate on a single application thanks to the multitenancy paradigm, the software architecture of the
+application is altered. Contrary to that model, this
+tactic is different. Google, App Engine, Microsoft
+Azure, Java, and developer tools are a few examples of
+infrastructure as a service.
+B. Platform as a service (PaaS)
+A platform for development known as "platform as a
+service" enables users of the cloud to build cloud
+services and apps by supporting the whole "software
+lifecycle." In contrast to SaaS, which only hosts
+finished cloud applications, this provides a
+development platform that hosts both finished and inprogress cloud applications. As a result, PaaS offers
+development infrastructure such as configuration
+management, tools, programming environments, and
+other components in addition to a hosting
+environment. Microsoft Azure, Google App Engine,
+developer tools, and Java are a few examples of PaaS.
+C. Software as a service (SaaS)
+A variety of customers with access to networks can
+access the program that cloud customers publish in a
+hosting environment (such as web browsers). To
+achieve economies of scale and optimization in terms
+of speed, availability, disaster recovery, maintenance,
+and security, users of the applications of various cloud
+consumers are grouped on the SaaS cloud in a single
+logical environment.
+The cloud infrastructure commonly employs a multitenancy system architecture and is not under the
+user's control. Examples include Salesforce, Google
+Docs, and Google.
+D. Data storage as service (DaaS)
+Virtualized storage that is made available on
+demand is now a separate cloud service called data
+storage service. Excellent data storage service. as a
+unique IaaS type. This is due to the fact that expensive
+upfront expenses for on-premises enterprise database
+systems are sometimes associated with dedicated
+servers, software licenses, post-delivery services, and
+internal IT maintenance. Customers can use DaaS to
+pay only for the services they use rather than obtaining
+a site license for the entire database. Along with more
+traditional storage interfaces like file systems and
+relational database management systems (RDBMS),
+which are frequently too big, too slow, and quite
+expensive, some data storage service providers also
+offer table-style abstractions that store and retrieve a
+sizable amount of data in a highly compressed
+timescale.
+IV. CHARACTERISTICS OF CLOUD
+COMPUTING
+According to the National Institute of Standards
+and Technology [5], cloud computing has five features
+that make it suitable for information technology
+applications and services.
+A. On-demand self service
+On-demand self-service: Cloud services such as server
+time, storage, web applications, computing power, and
+networks may be delivered automatically to consumers
+as needed, eliminating the need for human interaction.
+B. Resource pooling
+Cloud providers pool their computing resources
+together to accommodate multiple customers. This is
+accomplished either through virtualization, which uses
+virtual machines to replicate physical hardware or
+through "multi-tenancy," which allows multiple users
+of the same resources. This is made possible by having
+various physical and virtual resources that are
+dynamically assigned and reassigned in response to
+changing consumer demand (Mell,2009) [32].
+The concept of a pool-oriented computing paradigm is
+inspired by economies of scale and resource
+specialization. Physical computing resources have
+resulted in this community paradigm. It suggests that
+the customers are unaware of the available resources.
+Consumers are oblivious to the origins, location, and
+physical composition of the resources they utilize.
+Customers are unable to identify the place in certain
+clouds where their data is supposed to be kept. This
+enables resource pooling without exposing the
+resource provider's management structure and allows
+for fully flexible resource offering to clients.
+C. Broad network access
+Numerous clients (applications) that access the
+required computer resources through a network,
+mostly the internet, employ a range of platforms,
+including laptops, microcomputers, and mobile
+phones, all of which are present at the consumer's end.
+The benefits of cloud computing can be expanded
+thanks to broadband network connectivity.
+D. Rapid elasticity
+Numerous clients (applications) that access the
+required computer resources through a network,
+mostly the internet, employ a range of platforms,
+including laptops, microcomputers, and mobile
+phones, all of which are present at the consumer's end.
+The benefits of cloud computing can be expanded
+thanks to broadband network connectivity. Numerous
+clients (applications) that access the required computer
+resources through a network, mostly the internet,
+employ a range of platforms, including laptops,
+microcomputers, and mobile phones, all of which are
+present at the consumer's end. The benefits of cloud
+computing can be expanded thanks to broadband
+network connectivity.
+E. Measured service
+In a cloud environment, multiple users may share
+computer resources (multi-tenancy), but the cloud
+infrastructure may make use of tools to monitor how
+each user is using these resources. The cloud
+computing metering methods enable for the individual
+invoicing of numerous cloud users.
+V. CLOUD COMPUTING DEPLOYMENT TYPE
+There are basically three types of cloud, private cloud,
+public cloud, and hybrid cloud. These are classified
+based on the size of the network, security, and the
+number of users
+A. Private cloud
+A private cloud is developed and maintained
+especially for a single firm, but the administrator also
+allows outside companies to use the cloud. The private
+cloud allows for on-site or off-site activities. The
+private cloud provides good cost management, cost
+control, privacy, and energy efficiency. Private clouds
+have a limited capacity and are restricted to a certain
+area.
+B. Public cloud
+This is a cloud computing service that the public
+or anyone can use or purchase. It is provided by a third
+party over the public internet. Customers using this
+type of service only pay for the services they really
+utilize. If they have internet availability, every
+employee of the organization can use the programme
+from any office or branch using whatever device they
+choose.
+C. Community cloud
+Several institutions or organizations with similar
+objectives host a community cloud. It is frequently
+used in universities for both teaching and research.
+Businesses have the option of managing the cloud
+system themselves, either on- or off-site, or by
+outsourcing with a different organization to handle
+daily system operations.
+D. Hybrid cloud
+Different cloud systems comprise a hybrid cloud. It
+typically consists of two or more distinct clouds. For
+instance, a company may opt to use the public cloud
+for daily operations while storing sensitive data in their
+own data center. Using a hybrid cloud could have
+several advantages. Large and well-known
+organizations are more likely to make significant
+investments in the infrastructure needed to offer
+resources internally. Safety is an additional factor.
+VI. BENEFITS AND CHALLENGES OF CLOUD
+COMPUTING
+There are many benefits cloud computing offers to its
+users that encourages them to adopt it. Cost reduction,
+increased productivity and easy scalability are the
+main benefits of adopting cloud computing.
+A. Cost reduction
+The usage of the software as a service enables
+commercial organizations to pay less for information
+technology resources, improving both the performance
+and profitability of their operations. Customers are
+required to pay according to their usage. Customers
+that need an application for a brief period, pay the
+application's license fees. The cost of purchasing
+unneeded resources and apps is reduced by the cloudbased solution. Users may benefit from continual
+upgrades and maintenance without the costs and time
+constraints associated with it in this case because the
+service provider owns and hosts. Clients who use
+cloud computing technology are not required to create
+data backups. For the storage of data, cloud service
+providers use several redundant locations. This is
+acceptable for business continuity and incident
+recovery. Business enterprises are not concerned about
+data loss and recovery from backups [33].
+B. Increased productivity
+Due to the rapid growth of technology, consumers are
+becoming more demanding. They need the products
+sooner and in reduced hours. To use information
+technology solutions like collaborative online services
+and remote access applications, businesses must
+adhere to these standards. Business applications for
+cloud computing must be accessible through computer
+systems that are online or in the cloud. accessibility to
+the programmes that are constantly and everywhere
+open to users. Organizations and businesspersons can
+use cloud-based apps provided by various suppliers to
+arrange meetings and send and receive emails or
+messages. Additionally, cloud computing has
+improved mobility. Businesses can use a laptop or
+smartphone equipped with a web browser to access
+cloud services.
+C. Scalability
+Cloud computing is a scalable model which enables
+on-demand company scalability. Examples are SaaS,
+PaaS, IaaS. Scalability is another feature of cloud
+computing that can be beneficial. Depending on the
+current demand for services, a business can reduce the
+number of virtual servers it uses at any time. The room
+they require or adjust it to their preferred pattern of
+growth. This is cost effective especially for smaller
+businesses that are trying to save cost. Small
+businesses do not have to pay a fixed amount for a
+dedicated data center hosting but can scale up the kind
+of space needed on a dedicated server. This really
+saves the company cost.
+CLOUD COMPUTING CHALLENGES
+Cloud computing technologies has numerous
+challenges for several sectors of handling data and
+information. Consequently, if you choose to deploy
+cloud infrastructure services, you may face the
+following difficulties and dangers.
+[35]
+A. Security and privacy
+These include the organizational and technical
+difficulties of maintaining a sufficient level of data
+privacy and security in cloud services. This guarantees
+that serious security and privacy problems about the
+security and privacy of crucial or sensitive data for a
+business, like banks, arise when government entities
+use the cloud. Although it is widely accepted that
+service level agreements between cloud service
+providers and customers are required, there are
+currently no formal safety requirements. Things like
+machine detection, side-channel assaults, encryption,
+and authentication are among the data security and
+privacy issues.
+B. Interoperability and portability
+Service portability between different cloud providers is
+leading to several issues. Due to the lack of defined
+formats and interfaces for managing virtual appliances
+and uniform interfaces for interacting with different
+clouds, this issue exists. There is currently no standard
+way to communicate with clouds. Instead, many cloud
+providers present various APIs. Standardizing APIs
+among the many cloud service providers is necessary
+to develop a common cloud interface.
+C. Legal issues
+The use of cloud resources as a utility has raised
+numerous legal concerns.Data placement is the
+primary problem.Different regions and jurisdictions
+have very different laws and regulations regarding
+where,how,and how long data should be
+stored.Regarding the disclosure of data in general and
+sensitive data in particular for instance data from
+financial and health sector.,compliance requirements
+may differ.In addition to the issues of identity
+definition, such as users versus system and issues of
+authentication and authorization.,another significant
+issue is the absence of comprehensive legislation on
+liability in the cloud.
+D. Economic Challenges
+The cost of the physical infrastructure and the
+administrative costs connected to it are essential in
+determining the viability of the business from an
+economic perspective.. This issue has to do with the
+cost-benefit element of cloud computing. Cloud
+service companies must develop efficient monetization
+plans that will yield a respectable return on their
+efforts. The plan calls for developing viable pricing
+structures, implementing licensing plans, and grouping
+resources. Since diverse providers handle invoicing
+and payments, it might be difficult to ascertain the
+type,calibre,and availability of services that the
+consumer is paying for.Financial benchmarking and
+evaluation of various providers are therefore
+challenging.
+E. Data Management
+Due to the increased data-intensive applications that
+cloud computing enables at the largest scale, there is
+an increased need for efficient data management
+solutions.Data storage falls under this heading..Data
+segmentation,recovery,location,authenticity,anonymiz
+ation,and backup are all parts of data.Data retrieval
+and processing are additional problems with cloud
+computing across different data centers.
+F. Service Management
+Service management faced various difficulties with the
+cloud-based IT strategy. The capacity to offer
+individualized and more context-sensitive services
+present another difficulty. For a variety of reasons,
+managing the service life cycle and service registry has
+proven to be difficult.
+G. Quality
+The fundamental problem in the field of cloud service
+quality is the design and implementation of servicelevel agreements.. Lack of a service-level contract
+between cloud firms makes adoption of cloud
+computing more difficult since it impacts user
+confidence in the dependability and availability of
+services. Negotiation and benchmarking are
+challenging due to the lack of a clear set of service
+level targets and quality of service assessments. The
+quality of the user experience, especially in
+multimedia, streaming video, and online gaming.
+CONCLUSION
+In this research, we discussed the architecture, types,
+characteristics of cloud computing is key in
+information technology as it reduces cost for
+organizations and makes it easier to access files. It also
+helps to reduce data delay and redundancy. Any
+organization that wants to adopt cloud computing
+should consider the key challenges which is security
+and privacy.
